@@ -274,6 +274,11 @@ h2.section-title::after {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.hero-dates-venue {
+  margin-top: 0;
   margin-bottom: 2.5rem;
 }
 

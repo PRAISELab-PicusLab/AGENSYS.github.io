@@ -484,6 +484,7 @@ h2.section-title::after {
 }
 
 .page-hero h1 {
+  font: "Playfair Display", serif; 
   color: #fff;
   font-size: 2.8rem;
   margin-bottom: 0.75rem;

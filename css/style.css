@@ -61,6 +61,12 @@ h1, h2, h3, h4 {
   line-height: 1.3;
 }
 
+/* Use serif font for ampersands */
+.amp {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-style: italic;
+}
+
 h2.section-title {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -484,7 +490,6 @@ h2.section-title::after {
 }
 
 .page-hero h1 {
-  font: "Playfair Display", serif; 
   color: #fff;
   font-size: 2.8rem;
   margin-bottom: 0.75rem;
@@ -611,6 +616,13 @@ h2.section-title::after {
   flex-shrink: 0;
 }
 
+.organizer-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .organizer-info h3 {
   font-family: var(--font);
   font-weight: 700;
@@ -672,6 +684,39 @@ h2.section-title::after {
 .pc-member .pc-role {
   font-size: 0.82rem;
   color: var(--text-light);
+}
+
+/* ===== Keynote Speaker ===== */
+.keynote-card {
+  background: linear-gradient(135deg, var(--primary-mid), var(--primary-light));
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  color: #fff;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+.keynote-card .organizer-avatar {
+  width: 100px;
+  height: 100px;
+  background: rgba(255,255,255,0.15);
+  font-size: 2rem;
+}
+
+.keynote-card h3 {
+  color: #fff;
+  font-size: 1.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.keynote-card .organizer-role {
+  color: var(--accent-light);
+}
+
+.keynote-card .organizer-bio {
+  color: rgba(255,255,255,0.8);
 }
 
 /* ===== Footer ===== */

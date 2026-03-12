@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGENSYS – ECML PKDD 2026 Workshop</title>
+  <meta name="description" content="AGENSYS: Workshop on Knowledge Discovery, Maintenance and Distributed Intelligence in Multi-Agent Systems at ECML PKDD 2026">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">AGEN<span>SYS</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="submission.html">Submission</a></li>
+        <li><a href="organizers.html">Organizers</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">ECML PKDD 2026 Workshop</div>
+      <h1><span class="highlight">AGENSYS</span></h1>
+      <p class="hero-full-title">Workshop on Knowledge Discovery, Maintenance and Distributed Intelligence in Multi-Agent Systems</p>
+      <p class="hero-conference">In conjunction with <strong>ECML PKDD 2026</strong></p>
+
+      <div class="hero-dates">
+        <div class="hero-date-item">
+          <div class="label">Paper Submission</div>
+          <div class="date">TBA</div>
+        </div>
+        <div class="hero-date-item">
+          <div class="label">Notification</div>
+          <div class="date">TBA</div>
+        </div>
+        <div class="hero-date-item">
+          <div class="label">Workshop Date</div>
+          <div class="date">September 2026</div>
+        </div>
+      </div>
+
+      <a href="submission.html" class="hero-cta">Submit Your Paper &rarr;</a>
+    </div>
+  </header>
+
+  <!-- Scope -->
+  <section class="section" id="scope">
+    <div class="container">
+      <h2 class="section-title">Scope</h2>
+      <p class="section-subtitle">Why this workshop matters</p>
+      <div class="scope-text">
+        <p>The increasing adoption of Agentic AI systems is reshaping how complex tasks are addressed across a wide range of domains. In many emerging applications&mdash;such as collaborative information retrieval, distributed data analysis, simulation-based policy modeling, and automated scientific discovery&mdash;multiple agents interact, exchange intermediate outputs, and iteratively refine collective decisions over extended interaction cycles. At the same time, deploying these systems in practice requires distributed learning and coordination across heterogeneous sites, edge devices, and organizational boundaries.</p>
+        <p>While multi-agent systems demonstrate remarkable capabilities, their widespread deployment introduces two deeply intertwined research challenges. On the one hand, fundamental questions arise concerning how knowledge is acquired, shared, validated, and updated through interaction. On the other hand, real-world environments rarely permit centralized training or global data sharing: learning must occur across distributed sites under privacy, regulatory, and communication constraints. At the intersection of these two dimensions, a central and still underexplored question emerges: <strong>how can multi-agent systems discover and remain grounded in reliable knowledge while learning and coordinating in a fully distributed manner?</strong></p>
+        <p>AGENSYS jointly addresses knowledge-grounded multi-agent learning and distributed intelligence, treating them as complementary facets of the same overarching problem. Agents rely on external knowledge sources such as structured databases, knowledge graphs, retrieval systems, scientific corpora, or streaming data while collaborating or competing in dynamic environments. Simultaneously, the underlying training and adaptation processes must be decentralized, communication-efficient, and resilient to data heterogeneity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Challenges -->
+  <section class="section" id="challenges">
+    <div class="container">
+      <h2 class="section-title">Key Challenges</h2>
+      <p class="section-subtitle">Core research questions we aim to explore</p>
+      <div class="challenges-grid">
+        <div class="challenge-card">
+          <div class="icon">&#x1F310;</div>
+          <h3>Grounding &amp; Coordination</h3>
+          <p>How does access to heterogeneous external knowledge affect collaborative strategies among agents operating across distributed sites? How do retrieval-augmented agents coordinate when evidence is partially inconsistent?</p>
+        </div>
+        <div class="challenge-card">
+          <div class="icon">&#x26A0;</div>
+          <h3>Hallucination Propagation</h3>
+          <p>In iterative multi-agent pipelines, how can incorrect intermediate outputs spread and amplify across agents? What distributed mechanisms can detect and contain error cascades without a central authority?</p>
+        </div>
+        <div class="challenge-card">
+          <div class="icon">&#x1F4C9;</div>
+          <h3>Knowledge Drift Detection</h3>
+          <p>How can we formally detect when a multi-agent system progressively diverges from reliable knowledge sources during long-horizon interaction under non-IID data distributions?</p>
+        </div>
+        <div class="challenge-card">
+          <div class="icon">&#x1F6E1;</div>
+          <h3>Mitigation &amp; Resilience</h3>
+          <p>Can uncertainty modeling, confidence-weighted voting, graph-based consistency checks, or Byzantine-tolerant aggregation reduce collective errors across knowledge and distributed training dimensions?</p>
+        </div>
+        <div class="challenge-card">
+          <div class="icon">&#x1F4A1;</div>
+          <h3>Emergent Knowledge Generation</h3>
+          <p>Under what conditions can distributed multi-agent interaction lead to discovery of novel hypotheses or synthetic knowledge that is both valid and generalizable?</p>
+        </div>
+        <div class="challenge-card">
+          <div class="icon">&#x2699;</div>
+          <h3>Scalable Distributed Training</h3>
+          <p>How can we design communication-efficient, privacy-preserving training pipelines that enable large-scale agentic systems to learn continuously across heterogeneous environments?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics of Interest -->
+  <section class="section" id="topics">
+    <div class="container">
+      <h2 class="section-title">Topics of Interest</h2>
+      <p class="section-subtitle">We welcome contributions on topics including, but not limited to</p>
+      <div class="topics-container">
+        <div class="topic-group">
+          <h3>&#x1F9E0; Knowledge Discovery &amp; Grounding</h3>
+          <ul>
+            <li>Knowledge grounding and external knowledge integration in multi-agent systems</li>
+            <li>Learning and coordination under heterogeneous or inconsistent evidence</li>
+            <li>Hallucination propagation, detection, and containment in iterative agent pipelines</li>
+            <li>Knowledge drift detection and monitoring in long-horizon interaction</li>
+            <li>Uncertainty estimation and mitigation strategies in collaborative agents</li>
+            <li>Emergent knowledge generation and hypothesis discovery in agent collectives</li>
+            <li>Multi-agent reinforcement learning with knowledge constraints</li>
+            <li>Data mining over evolving interaction graphs</li>
+          </ul>
+        </div>
+        <div class="topic-group">
+          <h3>&#x1F5A7; Distributed Intelligence &amp; Decentralized Learning</h3>
+          <ul>
+            <li>Distributed and decentralized training of agentic architectures and foundation models</li>
+            <li>Decentralized optimization, consensus mechanisms, and convergence guarantees</li>
+            <li>Learning under heterogeneous, non-IID, and streaming data distributions</li>
+            <li>Continual and online adaptation in distributed and edge-constrained settings</li>
+            <li>Privacy-preserving and communication-efficient distributed learning</li>
+            <li>Cross-silo, cross-domain, and cross-device adaptation</li>
+            <li>Robustness, adversarial resilience, and Byzantine-tolerant aggregation</li>
+          </ul>
+        </div>
+        <div class="topic-group">
+          <h3>&#x2705; Evaluation, Trust &amp; Infrastructure</h3>
+          <ul>
+            <li>Evaluation frameworks and benchmarks for knowledge-grounded and distributed agent systems</li>
+            <li>Trust, explainability, and certifiability in distributed generative and agentic systems</li>
+            <li>Scalable infrastructure and benchmarking for distributed agentic AI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Important Dates -->
+  <section class="section" id="dates">
+    <div class="container">
+      <h2 class="section-title">Important Dates</h2>
+      <p class="section-subtitle">Mark your calendar</p>
+      <table class="dates-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Paper Submission Deadline</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>Acceptance Notification</td>
+            <td>TBA</td>
+          </tr>
+          <tr>
+            <td>Camera-Ready Deadline</td>
+            <td>TBA</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Workshop Day</td>
+            <td>September 2026 (co-located with ECML PKDD 2026)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="special-issue">
+        <h3>&#x1F4DA; Special Issue</h3>
+        <p>Selected contributions will be invited for a special issue in a journal such as <strong>EPJ Data Science</strong> or <strong>ACM Transactions on Intelligent Systems and Technology</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">AGEN<span>SYS</span></div>
+    <p>Workshop on Knowledge Discovery, Maintenance and Distributed Intelligence in Multi-Agent Systems</p>
+    <p>ECML PKDD 2026</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="submission.html">Submission</a>
+      <a href="organizers.html">Organizers</a>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.getElementById('navToggle').addEventListener('click', function () {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

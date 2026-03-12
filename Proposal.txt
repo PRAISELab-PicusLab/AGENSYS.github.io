@@ -1,0 +1,115 @@
+ECML PKDD 2026 - Workshops Track Proposal
+Workshop Introduction and Objectives
+AGENSYS – Workshop on Knowledge Discovery, Maintenance and Distributed Intelligence in Multi-Agent Systems
+The increasing adoption of Agentic AI systems is reshaping how complex tasks are addressed across a wide range of domains. In many emerging applications—such as collaborative information retrieval, distributed data analysis, simulation-based policy modeling, and automated scientific discovery—multiple agents interact, exchange intermediate outputs, and iteratively refine collective decisions over extended interaction cycles. At the same time, deploying these systems in practice requires distributed learning and coordination across heterogeneous sites, edge devices, and organizational boundaries, accelerating the transition toward intelligent, decentralized infrastructures in industrial and cyber-physical settings.
+While multi-agent systems demonstrate remarkable capabilities, their widespread deployment introduces two deeply intertwined research challenges. On the one hand, fundamental questions arise concerning how knowledge is acquired, shared, validated, and updated through interaction—how learning unfolds over time, and how emergent patterns can be systematically analyzed. On the other hand, real-world environments rarely permit centralized training or global data sharing: learning must occur across distributed sites under privacy, regulatory, and communication constraints, demanding scalable and robust distributed training paradigms. At the intersection of these two dimensions, a central and still underexplored question emerges: how can multi-agent systems discover and remain grounded in reliable knowledge while learning and coordinating in a fully distributed manner?
+This workshop jointly addresses knowledge-grounded multi-agent learning and distributed intelligence, treating them as complementary facets of the same overarching problem. Agents rely on external knowledge sources such as structured databases, knowledge graphs, retrieval systems, scientific corpora, or streaming data while collaborating or competing in dynamic environments. Simultaneously, the underlying training and adaptation processes must be decentralized, communication-efficient, and resilient to data heterogeneity. Within these settings, agents must integrate heterogeneous evidence, reconcile inconsistencies, adapt their strategies over time, and evolve collaboratively without centralized data aggregation.
+The primary objective of AGENSYS is to provide a focused forum for investigating how knowledge discovery and distributed learning jointly shape the behavior, robustness, and scalability of multi-agent systems. To this end, the workshop brings together research communities spanning multi-agent learning, knowledge representation and reasoning, distributed and federated optimization, data mining in dynamic and networked environments, simulation-based learning, and explainable and trustworthy AI, fostering interdisciplinary dialogue on how knowledge can be effectively discovered, maintained, and validated in decentralized multi-agent architectures. We aim to address several concrete and currently underexplored challenges:
+●	Grounding and coordination in distributed settings: How does access to heterogeneous external knowledge affect collaborative or competitive strategies among agents operating across distributed sites? How do retrieval-augmented agents coordinate when their retrieved evidence is partially inconsistent, and communication bandwidth is limited?
+●	Hallucination propagation and distributed robustness: In iterative multi-agent pipelines, how can incorrect intermediate outputs spread and amplify across agents? What distributed mechanisms—such as cross-agent verification or decentralized consensus—can detect and contain error cascades without requiring a central authority?
+●	Knowledge drift detection under decentralized learning: How can we formally detect when a multi-agent system progressively diverges from reliable knowledge sources during long-horizon interaction, especially when learning dynamics are governed by non-IID local data distributions?
+●	Mitigation and resilience strategies: Can uncertainty modeling, confidence-weighted voting, graph-based consistency checks, or Byzantine-tolerant aggregation reduce collective errors in both the knowledge and distributed training dimensions?
+●	Emergent knowledge generation: Under what conditions can distributed multi-agent interaction lead to the discovery of novel hypotheses or synthetic knowledge that is both valid and generalizable, going beyond what any single agent or centralized system could achieve?
+●	Scalable distributed training for agentic architectures: How can we design communication-efficient, privacy-preserving, and resource-aware training pipelines that enable large-scale agentic systems to learn continuously across heterogeneous environments while maintaining knowledge consistency?
+The added value for ECML-PKDD lies in providing a dedicated venue for in-depth discussion of agentic, interaction-based, and emergent learning paradigms at the nexus of knowledge discovery and distributed intelligence, complementing the main conference with contributions that explore how machine learning and data mining techniques can be extended to settings where knowledge is collectively constructed, dynamically evolving, and embedded in decentralized agent interactions. We encourage three forms of paper submissions: (i) full research papers, (ii) position papers, (iii) short papers. All submissions will be reviewed by an experienced multidisciplinary PC for their contributions in terms of novelty and relatedness to the workshop program. Diversity of the PC ensures the inclusion of representatives from related disciplines. Furthermore, we plan to organise a special issue in a journal, such as EPJ Data Science or ACM Transactions on Intelligent Systems and Technology, to feature selected contributions.
+Organisers
+Vincenzo Moscato, Full Professor, University of Naples Federico II, vincenzo.moscato@unina.it
+Vincenzo Moscato is a Full Professor at the Electrical Engineering and Information Technology Department of University of Naples Federico II, where he is responsible for teaching Database Systems and Big Data Engineering within the Bachelor's and Master's programs in Computer Engineering, as well as the Master's program in Data Science. He is also  the Coordinator of the Master's Degree Program in Data Science. Currently, he is one of the leaders of PICUS (Pattern and Intelligence Computation for mUltimedia Systems) departmental research group and his research activities lay in the area of Big Multimedia Data Analytics, Artificial Intelligence and Social Network Analysis. In addition, He is the Director of CINI (Consorzio Interuniversitario Nazionale per l'Informatica) ITEM Research Lab, where he carries out several research activities on Intelligent Multimedia Systems.
+He managed as Principal Investigator several national and international projects and he won various awards for his research, including one granted by Oracle for the “Knowledge graphs for next-generation health science applications”  project and another one granted by Microsoft  for the PARLA CHIARO (Speak Clearly) project – Protecting Italian Dialect Speakers from AI-generated Health Misinformation in the context of the Microsoft LINGUA Open Call. He was in the Program Committee (PC) of a plethora of international and top-ranked conferences and served as reviewer of numerous international journals, including some of the most important journals concerning Multimedia, Knowledge and Data Engineering and Artificial Intelligence topics. He is in the editorial boards of several international journals (such as Expert Systems with Applications , Journal of Intelligent Information Systems and IEEE Trans. On Neural Networks and Learning Systems) and has managed as Guest Editor different Special Issues for a lot of journals. Finally, he was an author of about 260 publications in international journals, conference proceedings and book chapters. About 100 of such publications are available on top-ranked journals (Q1 and Q2 from SCIMAGO ranking) or included in Proceedings of top-ranked conferences (A*, A).
+
+Francesco Piccialli
+University of Naples Federico II, Italy Competence in Agentic AI: Prof. Piccialli is an Associate Professor of Computer Science and the Head of the M.O.D.A.L. research lab. His expertise in Agentic AI is underscored by his recent publication, "AgentAI: A Comprehensive Survey on Autonomous Agents in Distributed AI for Industry 4.0" in Expert Systems with Applications (ESWA) . He leads research on autonomous systems within the PNRR FAIR (Future AI Research) national partnership and the TUAI Marie Curie network, focusing on the transition from passive models to goal-driven, adaptive agents in Industry 5.0 and Smart Cities. Chairing Experience: He has a distinguished track record in organizing international scientific events, serving as Workshop Chair for premier conferences including AAAI, ICDCS, MobiCom, and CCGrid. He is an Associate Editor for IEEE Transactions on Artificial Intelligence and Nature Scientific Reports.
+
+Qiang Yang
+Prof. Yang is a world-renowned pioneer in AI planning and transfer learning—the foundational pillars of Agentic AI. As the Chief AI Officer (CAIO) at PolyU, he oversees research on Agentic Reinforcement Learning and LLM-driven autonomous agents capable of complex reasoning and long-horizon planning. His recent work focuses on "Agentic Knowledge Discovery" and bridging the gap between foundation models and autonomous operational workflows. Chairing Experience: He has held the highest leadership roles in the global AI community, including serving as President of IJCAI (2017-2019). He was the General Chair for ACM SIGKDD 2012, Chair for AAAI 2021, and the Program Chair for IJCAI 2015. He is a Fellow of AAAI, ACM, IEEE, and the Royal Society of Canada.
+
+David Camacho
+Prof. Camacho is a Full Professor and Head of the Applied Intelligence & Data Analysis (AIDA) group. He is an expert in Multi-Agent Systems (MAS), Swarm Intelligence, and Computational Intelligence. His research specifically targets "Agentic Aerial Intelligence," exploring how autonomous UAVs use reasoning and memory to collaborate in disaster response and infrastructure inspection. He is a frequent collaborator on agentic architectures for information disorder detection. Chairing Experience: He is currently the Editor-in-Chief of Expert Systems (Wiley) and has served as General Chair for numerous international conferences, including ICMNWC. He has held senior roles as Publicity Chair for ICDM and Track Chair for major AI events, managing the review process for over 350 scientific publications.
+
+Valerio La Gatta, PhD, Northwestern University, valerio.lagatta@northwestern.edu
+Dr. Valerio La Gatta is a Postdoctoral Fellow in Computer Science at Northwestern University. He holds a PhD in Computer Science from University of Naples Federico II. His research focuses on agentic and generative AI systems for socially relevant domains, including social media, public information, and security. He studies the opportunities and risks of deploying autonomous AI systems in socially consequential domains, with a focus on impact, accountability, and alignment with social good.
+
+Gian Marco Orlando, PhD Student, University of Naples Federico II, gianmarco.orlando@unina.it
+Gian Marco Orlando is currently a PhD Student at the University of Naples Federico II. He earned his Master’s Degree in Computer Engineering from the University of Naples Federico II, graduating with honors. His thesis highlights his expertise in the intersection of Artificial Intelligence and Social Network Analysis. His research interests lie in Social Network Analysis, Agent-Based Modeling and Big Data Analytics.
+
+Diego Russo, PhD Student, University of Bergamo, diego.russo@unibg.it
+Diego Russo is currently a PhD Student at the University of Bergamo. He earned his Master’s Degree in Computer Engineering from the University of Naples Federico II. His thesis highlights his expertise in the challenges of Recommender Systems. His research interests lie in Recommender Systems, Social Network Analysis and Big Data Analytics
+
+Daniela Annunziata
+University of Naples Federico II, Italy Competence in Agentic AI: Dr. Annunziata is a researcher within the M.O.D.A.L. group, specializing in the application of agentic workflows to Scientific Discovery and Smart Urban Mobility. Her research involves leveraging Large Language Models (LLMs) to orchestrate autonomous pipelines for drug discovery and intelligent traffic optimization, where agents perceive environmental stimuli and execute complex sequences of actions. Chairing Experience: Chairing Experience: She has extensive experience in the technical organization of international scientific events, having served as an organizer for Special Sessions at major conferences, including IEEE Big Data 2025. She was the Workshop Chair for the FIDTA (Federated Intelligence and Distributed Technologies for Applications) workshop at ACM MOBIHOC 2025 and regularly serves as a Program Committee Member for various prestigious workshops and conferences in the fields of machine learning and distributed systems.
+
+Publicity Chairs
+•	Dr. Sara Amitrano, University of Naples Federico II, Italy
+•	Dr. Marzia Canzaniello, University of Naples Federico II, Italy
+Program Committee and Invited Speakers
+Massimiliano Albanese, Full Professor, George Mason University
+Ilaria Bartolini, Full Professor, University of Bologna
+Fabio Mercorio, Full Professor, University of Milano-Bicocca
+Mouzhi Ge, Professor, Deggendorf Institute of Technology
+Fabio Persia, Associate Professor, University of L’Aquila
+Angel M. García Pedrero, Associate Professor, Universidad Politécnica de Madrid
+Luca Luceri, Assistant Professor, University of Southern California
+Marco Postiglione, PhD, Northwestern University
+Michela Gravina, PhD, University of Naples Federico II
+Antonio Galli, PhD, University of Naples Federico II
+Antonino Ferraro, PhD, Pegaso University
+Prof. Veronica Liu Yang, The Hong Kong Polytechnic University, Hong Kong
+Prof. Jon Crowcroft, University of Cambridge, UK
+Prof. Xiaokang Zhou, Kansai University, Japan
+Prof. Salvatore Cuomo, University of Naples Federico II, Italy
+Prof. Kenli Li, Hunan University, China
+Prof. Carlo Mazzocca, University of Salerno, Italy
+Prof. Francesco Flammini, University of Florence, Italy
+Prof. Rafal Cupek, Politechnika Śląska, Poland
+Prof. Sadi Alawadi, Blekinge Tekniska Högskola (BTH), Sweden
+Prof. Rehmat Ullah, Newcastle University, England, UK
+Prof. Valeria Mele, University of Naples Federico II, Italy
+Prof. Dipanwita Thakur, University of Calabria, Rende, Italy
+Call for Papers
+Recent advances in agentic AI and multi-agent systems are reshaping how knowledge is discovered, represented, shared, and validated in dynamic, data-driven environments. In many emerging applications, agents interact—collaborating or competing—as adaptive learners that rely on external knowledge sources such as retrieval systems, knowledge graphs, structured databases, or streaming data. At the same time, training and deploying these systems at scale demands distributed learning paradigms that operate across heterogeneous sites, edge devices, and organizational boundaries under stringent privacy and communication constraints. The convergence of these two dimensions—knowledge-grounded reasoning and distributed intelligence—raises fundamental and still open questions: how can knowledge be reliably discovered, maintained, and validated when learning itself is decentralized?
+
+The AGENSYS workshop provides a focused forum at the intersection of knowledge-grounded multi-agent learning and distributed intelligence. We welcome contributions that investigate how external knowledge shapes learning dynamics, coordination strategies, and robustness in multi-agent systems, as well as how distributed and decentralized training paradigms enable scalable, adaptive, and privacy-aware agentic architectures. We particularly encourage work that bridges these two perspectives, exploring how errors, uncertainty, or inconsistencies propagate across agents in decentralized settings.
+
+We invite submissions on topics including, but not limited to:
+
+Knowledge Discovery and Grounding in Multi-Agent Systems
+●	Knowledge grounding and external knowledge integration in multi-agent systems
+●	Learning and coordination under heterogeneous or inconsistent evidence
+●	Hallucination propagation, detection, and containment in iterative agent pipelines
+●	Knowledge drift detection and monitoring in long-horizon interaction
+●	Uncertainty estimation and mitigation strategies in collaborative agents
+●	Emergent knowledge generation and hypothesis discovery in agent collectives
+●	Multi-agent reinforcement learning with knowledge constraints
+●	Data mining over evolving interaction graphs
+
+Distributed Intelligence and Decentralized Learning
+●	Distributed and decentralized training of agentic architectures and foundation models
+●	Decentralized optimization, consensus mechanisms, and convergence guarantees
+●	Learning under heterogeneous, non-IID, and streaming data distributions
+●	Continual and online adaptation in distributed and edge-constrained settings
+●	Privacy-preserving and communication-efficient distributed learning
+●	Cross-silo, cross-domain, and cross-device adaptation
+●	Robustness, adversarial resilience, and Byzantine-tolerant aggregation
+
+Evaluation, Trust, and Infrastructure
+●	Evaluation frameworks and benchmarks for knowledge-grounded and distributed agent systems
+●	Trust, explainability, and certifiability in distributed generative and agentic systems
+●	Scalable infrastructure and benchmarking for distributed agentic AI
+
+The workshop will accept three types of submissions: (i) full research papers, (ii) short papers, and (iii) position papers. All submissions must present original, unpublished work and clearly articulate their contribution to machine learning, data mining, or knowledge discovery in the context of knowledge-grounded and distributed multi-agent systems. We encourage methodological, theoretical, and empirical contributions that advance learning algorithms, evaluation frameworks, robustness analysis, or data mining techniques for interaction-driven, knowledge-constrained, and decentralized multi-agent environments.
+The workshop is designed as a highly interactive, discussion-oriented event, combining formal presentations with collective debate. The tentative format includes oral presentations of accepted full papers. Depending on the number of accepted papers, sessions will be organized to maximize time for questions and feedback.
+Logistics
+The workshop requires a standard conference room equipped with a projector and basic presentation facilities. No additional logistical requirements are needed.
+Participation Estimates
+Fornire una stima del numero di sottomissioni attese e del numero di partecipanti al workshop durante la conferenza.
+Based on the growing interest in multi-agent learning, LLM-based agents, and knowledge-grounded AI systems, we anticipate receiving approximately 20-25 submissions, including full papers, short papers, and position papers.
+We expect the workshop to attract around 30-40 participants, including authors of accepted papers, invited speakers, and researchers from the ECML PKDD community interested in multi-agent learning, data mining in dynamic environments, and trustworthy AI systems.
+Given the interdisciplinary nature of the topic and its relevance to both academia and industry, we anticipate active discussion and cross-community participation.
+Proof of Interest from the Community
+Research on agentic AI, multi-agent systems, and knowledge-grounded learning has experienced rapid growth in recent years, with increasing numbers of publications at major venues such as NeurIPS, ICML, ICLR, AAAI, AAMAS, and The Web Conference. In particular, recent work on LLM-based agents, multi-agent reinforcement learning, and trustworthy AI highlights a strong and expanding interest in systems where knowledge is dynamically acquired, shared, and validated through interaction.
+
+Several recent workshops have addressed related themes but none have specifically focused on knowledge-grounded multi-agent learning. This workshop aims to fill this gap by bringing together researchers working at the intersection of multi-agent learning, knowledge representation, dynamic data mining, robustness analysis, and evaluation of interaction-driven systems.
+
+The topic naturally attracts researchers from multiple communities, including machine learning, data mining, multi-agent systems, natural language processing, network science, and trustworthy AI. Given the increasing number of projects and publications on LLM-based agents and multi-agent interaction, we expect strong interest from both academia and industry.
+
+We plan to actively disseminate the Call for Papers through research networks and social media channels, and we are in contact with researchers working on knowledge-grounded and multi-agent learning systems who have expressed preliminary interest in participating in the workshop.
